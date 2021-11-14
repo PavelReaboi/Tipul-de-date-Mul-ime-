@@ -1,0 +1,6 @@
+a=set({str(input("Introdu 5 litere mari din alfabetul latin pentru primul sir: ")) for x in range(5)})
+b=set({str(input("Introdu 5 litere mari din alfabetul latin pentru al doilea sir: " )) for x in range(5)})
+print("intersectia este: ", a.intersection(b))
+print("unirea este: ", a.union(b))
+print("diferenta din a in b este: ", a.difference(b))
+print("diferenta din b in a este: ", b.difference(a))
