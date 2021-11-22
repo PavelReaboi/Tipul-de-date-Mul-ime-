@@ -1,0 +1,5 @@
+x=set({str(input('Introdu 5 caractere pentru primul sir: ')) for i in range(5)})
+z=set({str(input('Introdu 5 caracterr pentru al doilea sir: ')) for i in range(5)})
+print('caractere ce apar cel putin in unul dintre siruri sunt:', x.union(z))
+print('caractere care apar in ambele siruri sunt: ', x.intersection(z))
+print('Caracterele care apar in primul sir si nu apar in al doilea sunt: ', x.difference(z))
